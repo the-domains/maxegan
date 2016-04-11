@@ -1,14 +1,26 @@
-layout_spectrum: 0.7768915
-typography_spectrum: 0.1938669
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 color:
   saturation: 0.4564077
+  brandStrength: 1
   lightness: 0.4943551
-  brandStrength: 0.2275697
-  rhythmicContrast: 0.7224833
   brandColors:
-    - '#B8B42D'
-    - '#697A21'
-    - '#FFFCE8'
-    - '#3E363F'
-    - '#DD403A'
+    - '#302720'
+    - '#4D78C5'
+    - '#78655B'
+    - '#FFF0E2'
+    - '#BCBFB4'
+  rhythmicContrast: 0.7224833
+typography_spectrum: 0.1938669
+layout_spectrum: 0.7768915
 name: Maxegan
